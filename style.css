@@ -5,3 +5,46 @@
     font-weight: 700;
     font-style: normal;
 }
+
+:root {
+    --color-white: #ffffff;
+    --color-black: #000000;
+
+    --font-large:48px;
+    --font-medium:28px;
+    --font-regular:18px;
+    --font-small: 16px;
+    --font-micro: 14px;
+
+    --size-border-radius: 4px;
+
+    --animation-duration: 300ms;
+
+}
+
+* {box-sizing: border-box;}
+
+body{
+    font-family:'KOFIHDrLEEJWTTF-B';
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-white );
+}
+
+ul {
+    padding-left:0;
+}
+
+li{
+    list-style: none;
+}
+
+button {
+    background-color: turquoise;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
