@@ -95,6 +95,11 @@ p {
     background-color: var(--color-deepv);
 }
 
+/* #navbar.navbar--bold{
+    background-color: var(--color-deeppink);
+    padding: 10px;
+
+} */
 .navbar__logo {
     font-size: var(--font-medium);
     font-weight: bold;
@@ -240,7 +245,7 @@ p {
 /* 기술 */
 
 #skills {
-    background-color: var(--color-yellow);
+    background-color: var(--color-ash);
 }
 
 .skillset {
@@ -347,7 +352,7 @@ p {
     width: 280px;
     height: 250px;
     margin: 2px;
-    background-color: var(--color-yellow);
+    background-color: var(--color-blue);
 }
 
 .project__img {
